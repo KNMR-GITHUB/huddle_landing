@@ -5,7 +5,7 @@
 body{
   display: flex;
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
   background-image: url("images/bg-desktop.svg");
   background-color: hsl(257, 40%, 49%);
   background-repeat:no-repeat;
@@ -84,7 +84,7 @@ button:hover{
     width: inherit;
   }
   .main_image img{
-    width:100vh;
+    width:100vw;
     height: auto;
   }
   .left{
