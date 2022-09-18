@@ -84,7 +84,7 @@ button:hover{
     width: inherit;
   }
   .main_image img{
-    width:100%;
+    width:100vh;
     height: auto;
   }
   .left{
