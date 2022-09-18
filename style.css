@@ -32,6 +32,8 @@ main{
   .left{
     padding-left:1rem;
   }
+  .right{
+    padding-left:1rem;
 }
 h1{
   font-family: "Poppins",sans-serif;
