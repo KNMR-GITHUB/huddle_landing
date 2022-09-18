@@ -15,26 +15,7 @@ main{
   height: inherit;
   color:white;
 }
-@media screen and (max-width: 860px){
-  body{
-    flex-direction: column;
-  }
-  main{
-    flex-direction: column;
-  }
-  .main_image{
-    width: inherit;
-  }
-  .main_image img{
-    width:100%;
-    height: auto;
-  }
-  .left{
-    padding:1rem;
-  }
-  .right{
-    padding:1rem;
-}
+
 h1{
   font-family: "Poppins",sans-serif;
   font-size: 2.4rem;
@@ -89,4 +70,24 @@ button:hover{
 }
 .social img:hover{
   background-color: violet;
+}
+@media screen and (max-width: 860px){
+  body{
+    flex-direction: column;
+  }
+  main{
+    flex-direction: column;
+  }
+  .main_image{
+    width: inherit;
+  }
+  .main_image img{
+    width:100%;
+    height: auto;
+  }
+  .left{
+    padding:1rem;
+  }
+  .right{
+    padding:1rem;
 }
