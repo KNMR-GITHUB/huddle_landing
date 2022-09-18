@@ -29,6 +29,9 @@ main{
     width:100%;
     height: auto;
   }
+  .left{
+    padding-left:1rem;
+  }
 }
 h1{
   font-family: "Poppins",sans-serif;
