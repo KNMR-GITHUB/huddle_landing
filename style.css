@@ -30,10 +30,10 @@ main{
     height: auto;
   }
   .left{
-    padding-left:1rem;
+    padding:1rem;
   }
   .right{
-    padding-left:1rem;
+    padding:1rem;
 }
 h1{
   font-family: "Poppins",sans-serif;
