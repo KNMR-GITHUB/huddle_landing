@@ -15,7 +15,7 @@ main{
   height: inherit;
   color:white;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 860px){
   body{
     flex-direction: column;
   }
