@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-image: url("images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+}
+main{
+  display: flex;
+  width: inherit;
+  height: inherit;
+  color:white;
+}
+@media screen and (max-width: 768px){
+  body{
+    flex-direction: column;
+  }
+  main{
+    flex-direction: column;
+  }
+  .main_image{
+    width: inherit;
+  }
+  .main_image img{
+    width:100%;
+    height: auto;
+  }
+}
+h1{
+  font-family: "Poppins",sans-serif;
+  font-size: 2.4rem;
+}
+p{
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.6;
+}
+button{
+  font-family: "Poppins",sans-serif;
+  font-size: 1rem;
+  border-radius: 5rem;
+  border-style: none;
+  color:hsl(257, 40%, 49%);
+  padding: 0.7rem 3.4rem;
+  margin-top: 1.6rem;
+  box-shadow: 0 0.3rem 2rem 0.01rem hsl(257, 20%, 20%);
+}
+button:hover{
+  background-color: violet;
+  color:white;
+}
+.left{
+  padding-left: 4rem;
+  padding-top: 3rem;
+}
+.logo{
+  width:12rem;
+  margin-bottom: 4rem;
+}
+.right{
+  display: flex;
+  flex-direction: column-reverse;
+  padding:0 10rem 0 3rem;
+  margin: 0;
+  width:100%;
+}
+.para{
+  margin-top: 2rem;
+}
+.social{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10rem;
+}
+.social img{
+  width:2.4rem;
+  height: 2.4rem;
+  margin-left: 1rem;
+  background-color:white;
+  border-radius: 100%
+}
+.social img:hover{
+  background-color: violet;
+}
